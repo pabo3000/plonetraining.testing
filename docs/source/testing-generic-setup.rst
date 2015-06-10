@@ -46,7 +46,7 @@ Test if dependencies have been installed::
         installed = [p['id'] for p in self.qi_tool.listInstalledProducts()]
         self.assertTrue(
             pid in installed,
-            "The package '%s' appears not to have been installed." % pid')
+            "The package '%s' appears not to have been installed." % pid)
 
 setup.py::
 
